@@ -26,7 +26,7 @@ const Homelayout = () => {
                     </Navbar>
                 </nav>
             <main className=' mx-auto my-3  grid grid-cols-12 '>
-            <aside className='col-span-3'>
+            <aside className='col-span-3 sticky top-0 h-fit'>
                 <Leftaside></Leftaside>
             </aside>
                 <section className="main col-span-6">
@@ -34,7 +34,7 @@ const Homelayout = () => {
                     <Outlet></Outlet>
 
                 </section>
-                <aside className='ml-3 col-span-3'>
+                <aside className='ml-3 col-span-3 sticky top-0 h-fit'>
                 <Rightaside></Rightaside>
             </aside>
                 
